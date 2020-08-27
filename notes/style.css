@@ -1,0 +1,11 @@
+.crud {
+    padding: 1% 0 0 1%; 
+}
+
+.crud div {
+    display: flex;
+
+    flex-flow: row wrap;
+
+    align-items: center;
+}
