@@ -5,10 +5,10 @@ CREATE TABLE student (
     PRIMARY KEY(student_id)
 );
 
-DESCRIBE student;
+SELECT * FROM student;
 
-DROP TABLE student;
+INSERT INTO student VALUES(1, 'Jack', 'Biology');
 
-ALTER TABLE student ADD gpa DECIMAL(3, 2);
+INSERT INTO student VALUES(2, 'Kate', 'Sociology');
 
-ALTER TABLE student DROP gpa;
+INSERT INTO student(student_id, name) VALUES(3, 'Claire');
