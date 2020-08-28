@@ -15,7 +15,7 @@ body {
     color: white;
 }
 
-.main-header {
+.parent-header {
     display: flex;
     
     justify-content: center;
@@ -25,20 +25,30 @@ body {
     border-bottom: 3px solid white;
 }
 
-.crud {
+.parent-block {
     border-bottom: 3px dashed white;
 }
 
-.crud h2 {
+.block-header {
     display: flex;
 
     justify-content: center;
 }
 
-.crud div {
+.text-block {
     display: flex;
 
     flex-flow: row wrap;
 
-    align-items: center;
+    align-items: baseline;
+
+    padding-bottom: 15px;
+}
+
+.pad-right {
+    padding-right: 5px;
+}
+
+.big-font {
+    font-size: 24px;
 }
